@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Program that practices here script.
+
+foo="some text"
+
+cat << _EOF_
+$foo
+"$foo"
+'$foo'
+\$foo
+_EOF_
+
